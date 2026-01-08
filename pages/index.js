@@ -1,25 +1,15 @@
 import LanguageToggle from "../components/LanguageToggle";
+
 export default function Home() {
   return (
-    <main style={{
-      backgroundColor: "#f6f3ef",
-      minHeight: "100vh",
-      padding: "120px"
-    }}>
-  <LanguageToggle />
-      <h1 style={{
-        fontFamily: "serif",
-        fontSize: "64px",
-        marginBottom: "20px"
-      }}>
+    <main style={{ backgroundColor: "#f6f3ef", minHeight: "100vh", padding: "120px" }}>
+      <LanguageToggle />
+
+      <h1 style={{ fontFamily: "serif", fontSize: "64px", marginBottom: "20px" }}>
         Diva Boutique
       </h1>
 
-      <p style={{
-        fontSize: "18px",
-        maxWidth: "500px",
-        color: "#444"
-      }}>
+      <p style={{ fontSize: "18px", maxWidth: "500px", color: "#444" }}>
         Premium women’s shoes and bags designed for elegance,
         confidence, and modern luxury.
       </p>
