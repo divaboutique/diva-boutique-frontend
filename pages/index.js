@@ -5,8 +5,8 @@ export default function Home() {
       backgroundColor: "#f6f3ef",
       minHeight: "100vh",
       padding: "120px"
-    }}
-<LanguageToggle />>
+    }}>
+  <LanguageToggle />
       <h1 style={{
         fontFamily: "serif",
         fontSize: "64px",
