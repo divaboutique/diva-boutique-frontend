@@ -1,10 +1,12 @@
+import LanguageToggle from "../components/LanguageToggle";
 export default function Home() {
   return (
     <main style={{
       backgroundColor: "#f6f3ef",
       minHeight: "100vh",
       padding: "120px"
-    }}>
+    }}
+<LanguageToggle />>
       <h1 style={{
         fontFamily: "serif",
         fontSize: "64px",
