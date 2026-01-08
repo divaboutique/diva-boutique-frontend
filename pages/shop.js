@@ -1,3 +1,5 @@
+import LanguageToggle from "../components/LanguageToggle";
+
 export default function Shop() {
   const products = [
     {
@@ -18,6 +20,8 @@ export default function Shop() {
 
   return (
     <main style={{ background: "#f6f3ef", minHeight: "100vh", padding: "100px" }}>
+      <LanguageToggle />
+
       <h1 style={{ fontSize: "48px", fontFamily: "serif", marginBottom: "60px" }}>
         Collection
       </h1>
